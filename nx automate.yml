@@ -5,7 +5,7 @@
 
   tasks:
 
-    - name: default interfaces
+    - name: by default interfaces
       nxos_interface: interface={{ item }} state=default host={{ inventory_hostname }}
       with_items:
         - Ethernet1/1
