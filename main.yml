@@ -48,4 +48,6 @@ portchannels:
     members:
       - Ethernet2/12
     mode: active
+    
+    
 
